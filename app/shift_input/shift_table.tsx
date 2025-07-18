@@ -392,7 +392,7 @@ const ShiftTable = ({ initialShifts = [] }: ShiftTableProps) => {
               <Button
                 onClick={handleSave}
                 disabled={loading || isSaving}
-                className="py-3 px-6 text-lg flex items-center"
+                className="py-3 px-6 text-lg"
               >
                 <Save className="h-5 w-5 mr-2" />
                 {loading || isSaving ? "保存中..." : "保存"}
